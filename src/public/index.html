@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+                Arial, sans-serif;
+            /* margin: auto; */
+            /* max-width: 38rem; */
+            /* padding: 2rem; */
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        td.file-size {
+            text-align: right;
+            padding-left: 1em;
+        }
+
+        td.last-modified {
+            text-align: right;
+            padding-left: 1em;
+        }
+
+        td.display-name {
+            padding-left: 1em;
+        }
+    </style>
+    <script src="/client.js"></script>
+    <script src="/assets/icons/index.js"></script>
+    <script src="/axios.min.js"></script>
+    <script src="/assets/js/moment.js"></script>
+    <div id="fileList">
+        <table id="fileListTable">
+            <tbody id="fileListTableBody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
